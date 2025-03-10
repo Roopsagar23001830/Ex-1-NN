@@ -73,6 +73,12 @@ y = df.iloc[:, -1].values
 print(y)
 ```
 
+<h4>Check for duplicates</h4>
+
+```
+df.duplicated()
+```
+
 <h4>Check for outliers</h4>
 
 ```
