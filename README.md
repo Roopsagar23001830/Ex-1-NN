@@ -129,7 +129,7 @@ print("\nLenght of X_test ",len(X_test))
 ## OUTPUT:
 
 <h4>Data checking</h4>
-![data checking](https://github.com/user-attachments/assets/fb54ec4e-c7a7-4e0a-a4d1-808bb3db5737)
+![data checking](https://github.com/user-attachments/assets/6bc659a4-c90f-49c6-9d42-e09c5bfcb3f4)
 
 <h4>Duplicates identification</h4>
 ![checking for Duplicate and NULL values](https://github.com/user-attachments/assets/6799da0c-544e-4c1d-96da-ec493190a185)
