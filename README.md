@@ -128,31 +128,31 @@ print("\nLenght of X_test ",len(X_test))
 
 ## OUTPUT:
 
-<h4>Data checking</h4>
-"C:\Users\Roop sagar S L\OneDrive\Desktop\nural\ex1\data checking.png"
+Data checking
+![data checking](https://github.com/user-attachments/assets/46f4a96d-0e75-4216-b585-d05067879b8b)
 
-<h4>Duplicates identification</h4>
+Duplicates identification
 ![checking for Duplicate and NULL values](https://github.com/user-attachments/assets/6799da0c-544e-4c1d-96da-ec493190a185)
 
-<h4>Values of 'Y'</h4>
+Values of 'Y'
 ![Values of Y](https://github.com/user-attachments/assets/71850056-8595-4a83-a24d-28281fe07a75)
 
-<h4>Outliers</h4>
+Outliers
 ![outliers](https://github.com/user-attachments/assets/e40fc1a8-85ce-4fc8-ab03-3f94d03eddfa)
 
-<h4>Checking datasets after dropping string values data from dataset</h4>
+Checking datasets after dropping string values data from dataset
 ![Checking datasets after dropping](https://github.com/user-attachments/assets/64b4b466-adb1-46ab-9d53-a21908cce656)
 
-<h4>Normalize the dataset</h4>
+Normalize the dataset
 ![Normalizatuon](https://github.com/user-attachments/assets/31114f34-2121-40f3-836d-cba0e4540b34)
 
-<h4>Split the dataset</h4>
+Split the dataset
 ![Split the Data set](https://github.com/user-attachments/assets/cde62209-b651-4c12-95fc-a583d8a092b4)
 
-<h4>Training the Model</h4>
+Training the Model
 ![Training Model](https://github.com/user-attachments/assets/8135f383-2397-4b4a-8443-658a7b8a2b12)
 
-<h4>Testing the Model</h4>
+Testing the Model
 ![Testing Model](https://github.com/user-attachments/assets/1a45a293-2469-43e4-85da-e0bb21880915)
 
 ## RESULT:
