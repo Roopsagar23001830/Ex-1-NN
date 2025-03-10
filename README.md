@@ -51,34 +51,47 @@ from scipy import stats
 import numpy as np
 ```
 
+<h4>Read the dataset</h4>
+
 ```
 df=pd.read_csv("Churn_Modelling.csv")
 df.head()
 df.tail()
 df.columns
 ```
+<h4>Check the missing data</h4>
 
 ```
 df.isnull().sum()
 df.duplicated()
 ```
 
+<h4>Assigning Y</h4>
+
 ```
 y = df.iloc[:, -1].values
 print(y)
 ```
 
+<h4>Check for outliers</h4>
+
 ```
 df.describe()
 ```
+
+<h4>Dropping string values data from dataset</h4>
 
 ```
 data = df.drop(['Surname', 'Geography','Gender'], axis=1)
 ```
 
+<h4>Checking datasets after dropping string values data from dataset</h4>
+
 ```
 data.head()
 ```
+
+<h4>Normalize the dataset</h4>
 
 ```
 scaler=MinMaxScaler()
@@ -86,12 +99,16 @@ df1=pd.DataFrame(scaler.fit_transform(data))
 print(df1)
 ```
 
+<h4>Split the dataset</h4>
+
 ```
 X=df.iloc[:,:-1].values
 y=df.iloc[:,-1].values
 print(X)
 print(y)
 ```
+
+<h4>Training and testing model</h4>
 
 ```
 X_train ,X_test ,y_train,y_test=train_test_split(X,y,test_size=0.2)
